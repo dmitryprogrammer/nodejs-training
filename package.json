@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitryprogrammer/nodejs-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitryprogrammer/nodejs-training/issues"
+  },
+  "homepage": "https://github.com/dmitryprogrammer/nodejs-training#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0"
+  }
+}
