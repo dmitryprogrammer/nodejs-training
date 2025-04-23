@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx nodemon start"
+    "start:dev": "npx nodemon multithread",
+    "prettier": "prettier . --write",
+    "lint": "eslint .",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,16 @@
   },
   "homepage": "https://github.com/dmitryprogrammer/nodejs-training#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
+    "eslint": "^9.25.1",
+    "eslint-config-eslint": "^11.0.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-jest": "^28.11.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.31.0"
