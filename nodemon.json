@@ -1,7 +1,6 @@
 {
-    "verbose": false,
-    "ignore": ["./node_modules"],
-    "ext": ".js,.ts",
-    "exec": "ts-node ./src/index.ts"
-  }
-  
+  "verbose": false,
+  "ignore": ["./node_modules"],
+  "ext": ".js,.ts",
+  "exec": "ts-node ./src/index.ts"
+}
