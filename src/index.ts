@@ -10,9 +10,11 @@ const commandMap = new Map<Commands, () => void>([
 ]);
 
 function run(): void {
-  const command = argv[2] as Commands;
-  if (command && commandMap.get(command)) {
-    console.log(`server started, command ${command}.`);
+  const commandName = argv[2] as Commands;
+  const command = commandMap.get(commandName);
+  if (commandName && command) {
+    console.log(`server started, command ${commandName}.`);
+    command();
   }
 }
 
